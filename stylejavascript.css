@@ -1,0 +1,94 @@
+body{
+    background-image: url(img3.jpeg);
+    text-align: center;
+    margin: auto;
+    padding: 15%;
+    background-size: 100% 100%;
+    font-family: 'century Gothic';
+    color: white;
+    background-attachment: fixed;
+}
+
+#elements{
+    font-size: 50px;
+}
+#elements #firstChoice #choice1{
+          font-size: 30px;
+          text-shadow: 1px 1px 1px #000;
+          border-radius: 50px;
+          border-style: inset;
+}
+#elements #firstChoice #choice1:hover{
+    background-color: rgba(236, 12, 12, 0.678);
+    transition: 0.6s;
+}
+#choice1 option{
+    background-color: white;
+}
+#elements #secondChoice #choice2{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50px;
+    border-style: inset;
+}
+#elements #secondChoice #choice2:hover{
+background-color: rgba(236, 12, 12, 0.678);
+transition: 0.6s;
+}
+#choice2 option{
+background-color: white;
+}
+#elements #go-button input{
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50px;
+    border-style: inset;
+}
+#elements #go-button input:hover{
+    background-color: rgba(236, 12, 12, 0.678);
+    transition: 0.6s;
+}
+#elements #bet input{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 50px;
+}
+
+#menu{
+    margin: 0;
+    padding-top: 0;
+    margin-top: 0px;
+    background-color: rgb(51, 51, 51);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+   }
+   #menu li{
+    list-style: none;
+    display: inline-block;
+   }
+   #menu li a{
+    text-decoration: line seashell;
+    position: relative;
+    color: seashell;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.9s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+   }
+   #menu li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px solid red;
+    bottom: 0;
+    right: 350px;
+    transition: 0.9s all;
+   }
+   #menu li a:hover:before{
+    right: 0;
+   }
+   
